@@ -21,13 +21,14 @@ const carrotPrice = 15;
 const cherryPrice = 7;
 const meatPrice = 25;
 
-if (walletSum >= cucumberPrice) {
+if (walletSum >= cucumberPrice) 
     walletSum -= cucumberPrice;
-}
+
 console.log(walletSum, 'cucumber')
+console.log(walletSum >= applePrice)
 if (walletSum >= applePrice) {
     walletSum -= applePrice;
-}
+
 console.log(walletSum, 'apple')
 if (walletSum >= carrotPrice) {
     walletSum -= carrotPrice;
@@ -40,8 +41,8 @@ console.log(walletSum, 'cherry')
 if (walletSum >= meatPrice) {
     walletSum -= meatPrice;
 }
-else {console.log(walletSum, 'BALANCE')};
-
+}
+console.log(walletSum, 'BALANCE')
 //Конец задания 1.2.2
 
 //Задание 1.2.3
