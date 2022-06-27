@@ -7,6 +7,7 @@ const month = 'april';
 const income = productPrice * purchaseQuantity;
 const expenses = unitCostPrice * purchaseQuantity + deliveryCosts;
 const profit = income - expenses;
+
 const message = `Добрый день, Евгений Павлович. Высылаю отчет за ${month}. 
 В этом месяце наши доходы составили ${income}. Наши расходы 
 составили ${expenses}. Наша прибыль - ${profit}`;
