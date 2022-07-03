@@ -1,14 +1,11 @@
-
-
 const firstItem = '5';
 const secondItem = 5;
 let exponent = firstItem ** secondItem;
 
-if ((Boolean(firstItem) && Boolean(secondItem)) && (exponent === exponent)) {
-    console.log(exponent);
+if ((+firstItem && +secondItem) || (typeof(firstItem) === "number" && typeof(secondItem) === "number") && (exponent === exponent)) {
+     console.log(exponent);
 } else { 
-    console.log("Несоответствующий тип данных");
-
+     console.log("Несоответствующий тип данных");
 }
 
 
