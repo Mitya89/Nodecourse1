@@ -20,60 +20,55 @@ const carrotPrice = 15;
 const cherryPrice = 7;
 const meatPrice = 25;
 
-if (walletSum >= cucumberPrice) {{
+if (walletSum >= cucumberPrice) {
     
-    if (walletSum >= cucumberPrice) {
+     if (walletSum >= cucumberPrice) {
         walletSum = walletSum - cucumberPrice;
         console.log(walletSum, " 1 kg of cucumber");
-    } 
-    }   
-if (walletSum >= applePrice) {{
-    
+     }   
     if (walletSum >= applePrice) {
-        walletSum = walletSum - applePrice;
-        console.log(walletSum, " 1 kg of apple")
-    } 
-    }
-if (walletSum >= carrotPrice) {{
     
-    if (walletSum >= carrotPrice) {
-        walletSum = walletSum - carrotPrice;
-        console.log(walletSum, " 1 kg of carrot")
-    } 
-    }
-if (walletSum >= cherryPrice) {{
+         if (walletSum >= applePrice) {
+            walletSum = walletSum - applePrice;
+             console.log(walletSum, " 1 kg of apple")
+            }
+         if (walletSum >= carrotPrice) {
     
-    if (walletSum >= cherryPrice) {
-        walletSum = walletSum - cherryPrice;
-        console.log(walletSum, " 1 kg of cherry")
-    } 
-    }
-if (walletSum >= meatPrice) {{
+             if (walletSum >= carrotPrice) {
+             walletSum = walletSum - carrotPrice;
+             console.log(walletSum, " 1 kg of carrot")
+             } 
+             if (walletSum >= cherryPrice) {
     
-    if (walletSum >= meatPrice) {
-        walletSum = walletSum - meatPrice;
-        console.log(walletSum, " 1 kg of meat")
-    } 
-    } 
-    if (walletSum >= 0) {
-        console.log(walletSum, "BALANCE")
-}
+                 if (walletSum >= cherryPrice) {
+                 walletSum = walletSum - cherryPrice;
+                 console.log(walletSum, " 1 kg of cherry")
+                 }
+                 if (walletSum >= meatPrice) {
+    
+                     if (walletSum >= meatPrice) {
+                     walletSum = walletSum - meatPrice;
+                     console.log(walletSum, " 1 kg of meat") 
+                     } 
+                     if (walletSum >= 0) {
+                     console.log(walletSum, "BALANCE")
+                     }
 
-} else {
+                 } else {
+                 console.log(walletSum, "BALANCE");
+                 }
+             } else {
+             console.log(walletSum, "BALANCE");
+             }
+         } else {
+         console.log(walletSum, "BALANCE");
+         }
+     } else {
+     console.log(walletSum, "BALANCE");
+    }
+ } else {
     console.log(walletSum, "BALANCE");
-}
-} else {
-    console.log(walletSum, "BALANCE");
-}
-} else {
-    console.log(walletSum, "BALANCE");
-}
-} else {
-    console.log(walletSum, "BALANCE");
-}
-} else {
-    console.log(walletSum, "BALANCE");
-}
+ }
 
 //Конец задания 1.2.2
 

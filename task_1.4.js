@@ -1,4 +1,20 @@
 
+
+const firstItem = '5';
+const secondItem = 5;
+let exponent = firstItem ** secondItem;
+
+if ((Boolean(firstItem) && Boolean(secondItem)) && (exponent === exponent)) {
+    console.log(exponent);
+} else { 
+    console.log("Несоответствующий тип данных");
+
+}
+
+
+
+
+/*
 const firstItem = '5';
 const secondItem = 5;
 let exponent = firstItem ** secondItem;
@@ -20,4 +36,4 @@ if ((firstItem === Number(firstItem) && secondItem === Number(secondItem)) && (e
 } else { 
     console.log("Несоответствующий тип данных");
 
-}
+} */
