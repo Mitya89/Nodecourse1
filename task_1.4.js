@@ -6,9 +6,6 @@ if ((typeof(firstItem) === "string" || typeof(firstItem) === "number") && (typeo
      let exponent;}
      if (exponent === exponent) {
       console.log(exponent);
-     } else { 
-      console.log("Несоответствующий тип данных");
-     }
 } else {
  console.log("Несоответствующий тип данных");
 }
